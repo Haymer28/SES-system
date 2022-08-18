@@ -9,7 +9,8 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>SES</title>
+        <link rel="icon" href="img/logo.png">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
         <style>
             #ctn3{
@@ -18,6 +19,16 @@
                 position: relative;
                 float:right;
                 margin-right: 80px;
+            }
+            #sc-2{
+                margin-top: 150px;
+                text-align: center;
+                background: black;
+                color: white;
+                width: 100%;
+                height: 250px;
+                margin-bottom: 300px;
+                padding: 50px;
             }
         </style>
     </head>
@@ -70,8 +81,8 @@
                 </div>
             </nav>
         </header>
-        <section>
-            <div style="background:#DBB154; height: 100px; width:100%; text-align: center; margin-bottom: 50px;">
+        <section id="sc-1">
+            <div style="background:#DBB154; height: 100px; width:100%; text-align: center; margin-bottom: 50px; ">
                 <p><h2>Comparte esta p&aacute;gina y haz crecer tu red de contactos!</h2></p>
                 <h4>Los usuarios con quienes compartas est&aacute; pagina, no veran este mensaje</h4>
             </div>
@@ -103,8 +114,13 @@
                 <br>
             </div>
         </section>
-        <section>
-            
+        <section id="sc-2">
+            <div>
+                <h3>La comunidad te premia </h3>
+                <h4>Por brindar ayudas superiores a <strong>1000 USD</strong></h4>
+                <h5>Recibe un bono adicional de</h5> 
+                <h3 style="color:red;">100 USD</h3>
+            </div>
         </section>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" 
