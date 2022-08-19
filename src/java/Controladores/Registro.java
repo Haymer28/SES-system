@@ -49,8 +49,8 @@ public class Registro extends HttpServlet {
                     && request.getParameter("password").toString().length() > 0) {
                 
                 String nom = request.getParameter("nombre");
-                String cel = request.getParameter("correo");
-                String correo = request.getParameter("email");
+                String cel = request.getParameter("celular");
+                String correo = request.getParameter("correo");
                 String referido = request.getParameter("referido");
                 String pass = request.getParameter("password");
                 
@@ -62,7 +62,7 @@ public class Registro extends HttpServlet {
                 
                 dao.insertar(usu);
                 
-                response.sendRedirect("Ppersonal.jsp");
+                response.sendRedirect("exitoso.jsp");
                 
             } else {
                 response.sendRedirect("index.jsp");

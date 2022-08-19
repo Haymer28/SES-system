@@ -3,8 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/USUARIO/Documents/NetBeansProjects/Aplicacion/web/index.html</file>
-            <file>file:/C:/Users/USUARIO/Documents/NetBeansProjects/Aplicacion/web/pPublico.jsp</file>
+            <file>file:/C:/xampp/htdocs/Aplicacion/web/fRegistro.jsp</file>
+            <file>file:/C:/xampp/htdocs/Aplicacion/web/exitoso.jsp</file>
+            <file>file:/C:/xampp/htdocs/Aplicacion/web/index.html</file>
+            <file>file:/C:/xampp/htdocs/Aplicacion/web/pPublico.jsp</file>
+            <file>file:/C:/xampp/htdocs/Aplicacion/src/java/Controladores/Registro.java</file>
         </group>
     </open-files>
 </project-private>
